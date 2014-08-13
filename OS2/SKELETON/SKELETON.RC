@@ -1,0 +1,22 @@
+/* --------------------------------------------------------------------
+                        Skeleton Resource File
+-------------------------------------------------------------------- */
+
+/* #include <os2.h> */
+/* #include "skeleton.h" */
+{$i skeleton.inc}
+
+ICON ID_APPNAME SKELETON.ICO
+
+STRINGTABLE LOADONCALL /*MOVEABLE*/
+BEGIN
+    ID_APPNAME      "Skeleton Application"
+END
+
+MENU ID_APPNAME
+{
+    MENUITEM "~About", IDM_ABOUT
+}
+
+rcinclude about.dlg
+
